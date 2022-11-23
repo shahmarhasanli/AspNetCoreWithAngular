@@ -3,8 +3,8 @@ using System.Net;
 
 namespace AngularProject.Controllers
 {
-    [Route("[controller]")]
     [ApiController]
+    [Route("[controller]")]
     public class AccountController : ControllerBase
     {
         private readonly ILogger<AccountController> _logger;
